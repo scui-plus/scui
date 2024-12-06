@@ -5,7 +5,8 @@
 	"scripts": {
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build --report",
-		"lint": "vue-cli-service lint"
+		"lint": "vue-cli-service lint",
+		"deploy": "gh-pages -d dist -b dist -r git@github.com:scui-plus/scui.git"
 	},
 	"dependencies": {
 		"@element-plus/icons-vue": "2.0.10",
@@ -37,6 +38,7 @@
 		"@vue/cli-service": "5.0.8",
 		"eslint": "8.35.0",
 		"eslint-plugin-vue": "9.9.0",
+		"gh-pages": "^6.2.0",
 		"sass": "1.58.3",
 		"sass-loader": "10.1.1"
 	},
