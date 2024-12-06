@@ -166,7 +166,7 @@
 						this.dialog = false
 						this.$msgbox({
 							title: "成功发起任务",
-							message: `<div><img style="height:200px" src="img/tasks-example.png"/></div><p>已成功发起导出任务，您可以操作其他事务</p><p>稍后可在 <b>任务中心</b> 查看执行结果</p>`,
+							message: `<div><img style="height:200px" src="${require('@/assets/images/tasks-example.png')}"/></div><p>已成功发起导出任务，您可以操作其他事务</p><p>稍后可在 <b>任务中心</b> 查看执行结果</p>`,
 							type: "success",
 							confirmButtonText: "知道了",
 							dangerouslyUseHTMLString: true,

@@ -1,6 +1,6 @@
 <template>
 	<div class="login_bg">
-		<div class="login_adv" style="background-image: url(img/auth_banner.jpg);">
+		<div class="login_adv" :style="{backgroundImage: `url(${require('@/assets/images/auth_banner.jpg')})`}">
 			<div class="login_adv__title">
 				<h2>SCUI</h2>
 				<h4>{{ $t('login.slogan') }}</h4>
@@ -39,7 +39,7 @@
 			<div class="login-form">
 				<div class="login-header">
 					<div class="logo">
-						<img :alt="$CONFIG.APP_NAME" src="img/logo.png">
+						<img :alt="$CONFIG.APP_NAME" src="@/assets/images/logo.png">
 						<label>{{$CONFIG.APP_NAME}}</label>
 					</div>
 				</div>

@@ -64,7 +64,7 @@
 		},
 		data() {
 			return {
-				cropperImg: 'img/avatar.jpg',
+                cropperImg: require('@/assets/images/avatar.jpg'),
 				compress: 0.5,
 				aspectRatio: 0,
 				uploadImg: '',

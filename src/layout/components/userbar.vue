@@ -91,7 +91,7 @@
 					{
 						id: 1,
 						type: 'user',
-						avatar: "img/avatar.jpg",
+						avatar: require('@/assets/images/avatar.jpg'),
 						title: "Skuya",
 						describe: "如果喜欢就点个星星支持一下哦",
 						link: "https://gitee.com/lolicode/scui",
@@ -100,7 +100,7 @@
 					{
 						id: 2,
 						type: 'user',
-						avatar: "img/avatar2.gif",
+                        avatar: require('@/assets/images/avatar2.gif'),
 						title: "Lolowan",
 						describe: "点进去Gitee获取最新开源版本",
 						link: "https://gitee.com/lolicode/scui",
@@ -109,7 +109,7 @@
 					{
 						id: 3,
 						type: 'system',
-						avatar: "img/logo.png",
+                        avatar: require('@/assets/images/logo.png'),
 						title: "感谢登录SCUI Admin",
 						describe: "Vue 3.0 + Vue-Router 4.0 + ElementPlus + Axios 后台管理系统。",
 						link: "https://gitee.com/lolicode/scui",

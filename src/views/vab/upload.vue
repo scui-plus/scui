@@ -86,8 +86,11 @@
 					}
 				],
 				fileurl: "http://www.scuiadmin.com/files/220000198611262243.xlsx,http://www.scuiadmin.com/files/350000201004261875.xlsx",
-				fileurl2: "img/auth_banner.jpg,img/avatar3.gif",
-				fileurl3: "img/auth_banner.jpg",
+				fileurl2: [
+                    require('@/assets/images/auth_banner.jpg'),
+                    require('@/assets/images/avatar3.gif')
+                ].join(','),
+                fileurl3: require('@/assets/images/auth_banner.jpg'),
 				fileurl4: "",
 				fileurl5: "",
 				fileurl6: "",
