@@ -49,6 +49,7 @@
 						//确保当前标签在可视范围内
 						let targetTag = tags.querySelector(".active")
 						targetTag.scrollIntoView()
+                        this.tipDisplayed = true
 						//显示提示
 						if(!this.tipDisplayed){
 							this.$msgbox({
