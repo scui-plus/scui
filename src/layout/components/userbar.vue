@@ -94,7 +94,7 @@
 						avatar: require('@/assets/images/avatar.jpg'),
 						title: "Skuya",
 						describe: "如果喜欢就点个星星支持一下哦",
-						link: "https://gitee.com/lolicode/scui",
+						link: "https://github.com/scui-plus/scui",
 						time: "5分钟前"
 					},
 					{
@@ -102,8 +102,8 @@
 						type: 'user',
                         avatar: require('@/assets/images/avatar2.gif'),
 						title: "Lolowan",
-						describe: "点进去Gitee获取最新开源版本",
-						link: "https://gitee.com/lolicode/scui",
+						describe: "点进去 Github 获取最新开源版本",
+						link: "https://github.com/scui-plus/scui",
 						time: "14分钟前"
 					},
 					{
@@ -112,7 +112,7 @@
                         avatar: require('@/assets/images/logo.png'),
 						title: "感谢登录SCUI Admin",
 						describe: "Vue 3.0 + Vue-Router 4.0 + ElementPlus + Axios 后台管理系统。",
-						link: "https://gitee.com/lolicode/scui",
+						link: "https://github.com/scui-plus/scui",
 						time: "2020年7月24日"
 					}
 				]

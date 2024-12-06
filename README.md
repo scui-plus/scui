@@ -1,7 +1,7 @@
 
 <div align="center">
 
-![logo](https://lolicode.gitee.io/scui-doc/logo.png)
+![logo](public/logo.png)
 
 <p align="center">
 	<a href="https://v3.vuejs.org/" target="_blank">
@@ -25,14 +25,14 @@ SCUI 是一个中后台前端解决方案，基于VUE3和elementPlus实现。
 
 SCUI的宗旨是 让一切复杂的东西傻瓜化。
 
-![logo](https://lolicode.gitee.io/scui-doc/g_1.jpg)
+![logo](https://scui-plus.github.io/scui-doc/g_1.jpg)
 
 ## 演示和文档
 
 | 类型 | 链接 |
 | -------- | -------- |
-| 文档地址 | https://lolicode.gitee.io/scui-doc/ |
-| 演示地址  | https://lolicode.gitee.io/scui-doc/demo/#/login |
+| 文档地址 | https://scui-plus.github.io/scui-doc/ |
+| 演示地址  | https://scui-plus.github.io/scui/login |
 
 
 
@@ -49,12 +49,12 @@ SCUI的宗旨是 让一切复杂的东西傻瓜化。
 
 ## 部分截图
 
-![logo](https://lolicode.gitee.io/scui-doc/g_2.jpg)
+![logo](https://scui-plus.github.io/scui-doc/g_2.jpg)
 
 ## 安装教程
 ``` sh
 # 克隆项目
-git clone https://gitee.com/lolicode/scui.git
+git clone https://github.com/scui-plus/scui.git
 
 # 进入项目目录
 cd scui
@@ -70,6 +70,3 @@ npm run serve
 ## 鸣谢
 
 <img src="https://www.fastmock.site/resource/images/logo.png" style="height:40px"/>
-
-## 支持
-如果觉得本项目还不错或在工作中有所启发，请在Gitee(码云)帮开发者点亮星星，这是对开发者最大的支持和鼓励！

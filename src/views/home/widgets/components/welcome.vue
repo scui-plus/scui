@@ -38,7 +38,7 @@
 		},
 		methods: {
 			godoc(){
-				window.open("https://lolicode.gitee.io/scui-doc/")
+				window.open("https://scui-plus.github.io/scui-doc/")
 			}
 		}
 	}

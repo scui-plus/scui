@@ -53,7 +53,7 @@
 		},
 		methods: {
 			goIssue(){
-				window.open("https://gitee.com/lolicode/scui/issues")
+				window.open("https://github.com/scui-plus/scui/issues")
 			}
 		}
 	}

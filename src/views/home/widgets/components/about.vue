@@ -2,7 +2,7 @@
 	<el-card shadow="hover" header="关于项目" class="item-background">
 		<p>高性能 / 精致 / 优雅。基于Vue3 + Element-Plus 的中后台前端解决方案，如果喜欢就点个星星支持一下。</p>
 		<p>
-			<a href='https://gitee.com/lolicode/scui' target="_blank">
+			<a href='https://github.com/scui-plus/scui' target="_blank">
 				<img src='https://gitee.com/lolicode/scui/badge/star.svg?theme=dark' alt='star' style="vertical-align: middle">
 			</a>
 		</p>
