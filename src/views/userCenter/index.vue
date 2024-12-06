@@ -4,7 +4,7 @@
 			<el-container>
 				<el-header style="height: auto;display: block;">
 					<div class="user-info-top">
-						<el-avatar :size="70" src="@/assets/images/avatar.jpg"></el-avatar>
+						<el-avatar :size="70" :src="require('@/assets/images/avatar.jpg')"></el-avatar>
 						<h2>{{ user.userName }}</h2>
 						<p><el-tag effect="dark" round size="large" disable-transitions>{{ user.role }}</el-tag></p>
 					</div>
