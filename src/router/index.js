@@ -1,4 +1,4 @@
-import {createRouter, createWebHashHistory} from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router';
 import { ElNotification } from 'element-plus';
 import config from "@/config"
 import NProgress from 'nprogress'
@@ -20,7 +20,7 @@ const routes_404 = {
 let routes_404_r = ()=>{}
 
 const router = createRouter({
-	history: createWebHashHistory(),
+	history: createWebHistory(process.env.VUE_APP_PUBLIC_PATH),
 	routes: routes
 })
 
